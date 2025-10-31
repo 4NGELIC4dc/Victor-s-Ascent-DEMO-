@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 298efb15a786d8b49a88e0eaa062db7f
+guid: f1dc02edffc751b459ad78706c0814cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4469044270497626267
-    second: victorRun_0
+      213: -5602423308820669995
+    second: victorDeath_0
   - first:
-      213: -7338622760874711434
-    second: victorRun_1
+      213: 3162864694840933279
+    second: victorDeath_1
   - first:
-      213: 8767099074709526809
-    second: victorRun_2
+      213: 3012298560207557808
+    second: victorDeath_2
   - first:
-      213: -680008169350877861
-    second: victorRun_3
+      213: -7904514679567053897
+    second: victorDeath_3
   - first:
-      213: -756337165362735021
-    second: victorRun_4
+      213: -4480795956649983947
+    second: victorDeath_4
   - first:
-      213: -6931895078966155506
-    second: victorRun_5
+      213: 1283816946039696566
+    second: victorDeath_5
   - first:
-      213: -8926740102007393398
-    second: victorRun_6
+      213: -1195220839642024015
+    second: victorDeath_6
   - first:
-      213: 6889114640321294399
-    second: victorRun_7
+      213: 7850498886586282853
+    second: victorDeath_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -199,177 +199,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: victorRun_0
+      name: victorDeath_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 9
+        y: 0
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9106cfea13042b0800000000000000
+      internalID: -5602423308820669995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorDeath_1
+      rect:
+        serializedVersion: 2
+        x: 58
         y: 0
         width: 27
-        height: 41
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b987184061c350e30800000000000000
-      internalID: 4469044270497626267
+      spriteID: f9b3e90bea0c4eb20800000000000000
+      internalID: 3162864694840933279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorRun_1
+      name: victorDeath_2
       rect:
         serializedVersion: 2
-        x: 51
+        x: 104
         y: 0
-        width: 30
-        height: 42
+        width: 26
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 676677d0b79f72a90800000000000000
-      internalID: -7338622760874711434
+      spriteID: 0b49796a495ddc920800000000000000
+      internalID: 3012298560207557808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorRun_2
+      name: victorDeath_3
       rect:
         serializedVersion: 2
-        x: 95
+        x: 150
         y: 0
-        width: 38
-        height: 43
+        width: 29
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91997ba882efaa970800000000000000
-      internalID: 8767099074709526809
+      spriteID: 7bb8b8267c58d4290800000000000000
+      internalID: -7904514679567053897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorRun_3
+      name: victorDeath_4
       rect:
         serializedVersion: 2
-        x: 145
-        y: 8
-        width: 45
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5d2a7d3c202096f0800000000000000
-      internalID: -680008169350877861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: victorRun_4
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 8
-        width: 48
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 358d028fa53f085f0800000000000000
-      internalID: -756337165362735021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: victorRun_5
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 3
-        width: 45
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e07a1f50726fccf90800000000000000
-      internalID: -6931895078966155506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: victorRun_6
-      rect:
-        serializedVersion: 2
-        x: 292
+        x: 197
         y: 0
-        width: 42
-        height: 44
+        width: 35
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a837d915c29dd1480800000000000000
-      internalID: -8926740102007393398
+      spriteID: 5300fd451d301d1c0800000000000000
+      internalID: -4480795956649983947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorRun_7
+      name: victorDeath_5
       rect:
         serializedVersion: 2
-        x: 336
+        x: 243
         y: 0
-        width: 34
-        height: 43
+        width: 37
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f303b49e34d0b9f50800000000000000
-      internalID: 6889114640321294399
+      spriteID: 6bca251e5b801d110800000000000000
+      internalID: 1283816946039696566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorDeath_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b73ef89af8b96fe0800000000000000
+      internalID: -1195220839642024015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorDeath_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 0
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5633394c42392fc60800000000000000
+      internalID: 7850498886586282853
       vertices: []
       indices: 
       edges: []
@@ -378,7 +378,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f9d0c58d3cfaa6d449c578ba7bee8468
     internalID: 0
     vertices: []
     indices: 
@@ -386,16 +386,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      victorRun_0: 4469044270497626267
-      victorRun_1: -7338622760874711434
-      victorRun_2: 8767099074709526809
-      victorRun_3: -680008169350877861
-      victorRun_4: -756337165362735021
-      victorRun_5: -6931895078966155506
-      victorRun_6: -8926740102007393398
-      victorRun_7: 6889114640321294399
+      victorDeath_0: -5602423308820669995
+      victorDeath_1: 3162864694840933279
+      victorDeath_2: 3012298560207557808
+      victorDeath_3: -7904514679567053897
+      victorDeath_4: -4480795956649983947
+      victorDeath_5: 1283816946039696566
+      victorDeath_6: -1195220839642024015
+      victorDeath_7: 7850498886586282853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

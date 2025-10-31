@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: b9c9dde50b8297840a9a96958ef0f83d
+guid: 35fe38b246b842d43b0e1785d551656b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 520449906783838256
-    second: victorIdle_0
-  - first:
-      213: -7648288592404802674
-    second: victorIdle_1
-  - first:
-      213: -6272989448906186504
-    second: victorIdle_2
-  - first:
-      213: 8207141658450067429
-    second: victorIdle_3
-  - first:
-      213: 3635898320606878192
-    second: victorIdle_4
-  - first:
-      213: 9022094923671160377
-    second: victorIdle_5
+      213: 624935183022776743
+    second: enemyStone_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -193,133 +178,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: victorIdle_0
+      name: enemyStone_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 28
-        height: 47
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0306c39ce62093700800000000000000
-      internalID: 520449906783838256
+      spriteID: 7a167b7ec373ca800800000000000000
+      internalID: 624935183022776743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorIdle_1
+      name: enemyStone_1
       rect:
         serializedVersion: 2
-        x: 56
+        x: 32
         y: 0
-        width: 28
-        height: 46
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e831a0e2c02dbd590800000000000000
-      internalID: -7648288592404802674
+      spriteID: 125f1164ea85f764885d67e39d064b8d
+      internalID: 847677882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorIdle_2
+      name: enemyStone_2
       rect:
         serializedVersion: 2
-        x: 104
+        x: 64
         y: 0
-        width: 28
-        height: 46
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f06c2af45dd1f8a0800000000000000
-      internalID: -6272989448906186504
+      spriteID: 24876b218977c6544b2006ce3817f157
+      internalID: 1242726421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorIdle_3
+      name: enemyStone_3
       rect:
         serializedVersion: 2
-        x: 152
+        x: 96
         y: 0
-        width: 28
-        height: 46
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5eff935eadf95e170800000000000000
-      internalID: 8207141658450067429
+      spriteID: c40b0fa37c5426e419296b1d687ae85c
+      internalID: 1468870768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorIdle_4
+      name: enemyStone_4
       rect:
         serializedVersion: 2
-        x: 200
+        x: 128
         y: 0
-        width: 28
-        height: 47
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f9563f324e457230800000000000000
-      internalID: 3635898320606878192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: victorIdle_5
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 0
-        width: 28
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 936464f288be43d70800000000000000
-      internalID: 9022094923671160377
+      spriteID: 2791dbb51e4b031488465519a2280b8d
+      internalID: 454175057
       vertices: []
       indices: 
       edges: []
@@ -328,7 +291,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 098c1cfe73bcd7745ab506925c92bcc4
     internalID: 0
     vertices: []
     indices: 
@@ -336,14 +299,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      victorIdle_0: 520449906783838256
-      victorIdle_1: -7648288592404802674
-      victorIdle_2: -6272989448906186504
-      victorIdle_3: 8207141658450067429
-      victorIdle_4: 3635898320606878192
-      victorIdle_5: 9022094923671160377
+      enemyStone_0: 624935183022776743
+      enemyStone_1: 847677882
+      enemyStone_2: 1242726421
+      enemyStone_3: 1468870768
+      enemyStone_4: 454175057
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

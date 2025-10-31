@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 4e8833959a9d61148b272c7b8ea721a6
+guid: f12d1d18e528d8543aa9507e8910bc14
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5602423308820669995
-    second: victorDeath_0
+      213: 520449906783838256
+    second: victorIdle_0
   - first:
-      213: 3162864694840933279
-    second: victorDeath_1
+      213: -7648288592404802674
+    second: victorIdle_1
   - first:
-      213: 3012298560207557808
-    second: victorDeath_2
+      213: -6272989448906186504
+    second: victorIdle_2
   - first:
-      213: -7904514679567053897
-    second: victorDeath_3
+      213: 8207141658450067429
+    second: victorIdle_3
   - first:
-      213: -4480795956649983947
-    second: victorDeath_4
+      213: 3635898320606878192
+    second: victorIdle_4
   - first:
-      213: 1283816946039696566
-    second: victorDeath_5
-  - first:
-      213: -1195220839642024015
-    second: victorDeath_6
-  - first:
-      213: 7850498886586282853
-    second: victorDeath_7
+      213: 9022094923671160377
+    second: victorIdle_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -199,177 +193,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: victorDeath_0
+      name: victorIdle_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 9
         y: 0
-        width: 28
-        height: 44
+        width: 26
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d9106cfea13042b0800000000000000
-      internalID: -5602423308820669995
+      spriteID: 0306c39ce62093700800000000000000
+      internalID: 520449906783838256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorDeath_1
+      name: victorIdle_1
       rect:
         serializedVersion: 2
         x: 57
         y: 0
-        width: 29
-        height: 40
+        width: 26
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9b3e90bea0c4eb20800000000000000
-      internalID: 3162864694840933279
+      spriteID: e831a0e2c02dbd590800000000000000
+      internalID: -7648288592404802674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorDeath_2
+      name: victorIdle_2
       rect:
         serializedVersion: 2
-        x: 103
+        x: 105
         y: 0
-        width: 28
-        height: 31
+        width: 26
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b49796a495ddc920800000000000000
-      internalID: 3012298560207557808
+      spriteID: 8f06c2af45dd1f8a0800000000000000
+      internalID: -6272989448906186504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorDeath_3
+      name: victorIdle_3
       rect:
         serializedVersion: 2
-        x: 149
+        x: 153
         y: 0
-        width: 31
-        height: 25
+        width: 26
+        height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bb8b8267c58d4290800000000000000
-      internalID: -7904514679567053897
+      spriteID: 5eff935eadf95e170800000000000000
+      internalID: 8207141658450067429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorDeath_4
+      name: victorIdle_4
       rect:
         serializedVersion: 2
-        x: 196
+        x: 201
         y: 0
-        width: 37
-        height: 19
+        width: 26
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5300fd451d301d1c0800000000000000
-      internalID: -4480795956649983947
+      spriteID: 0f9563f324e457230800000000000000
+      internalID: 3635898320606878192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: victorDeath_5
+      name: victorIdle_5
       rect:
         serializedVersion: 2
-        x: 242
+        x: 249
         y: 0
-        width: 39
-        height: 12
+        width: 26
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bca251e5b801d110800000000000000
-      internalID: 1283816946039696566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: victorDeath_6
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 0
-        width: 37
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b73ef89af8b96fe0800000000000000
-      internalID: -1195220839642024015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: victorDeath_7
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 0
-        width: 38
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5633394c42392fc60800000000000000
-      internalID: 7850498886586282853
+      spriteID: 936464f288be43d70800000000000000
+      internalID: 9022094923671160377
       vertices: []
       indices: 
       edges: []
@@ -378,7 +328,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7c90136badd58f243834f970f5920480
     internalID: 0
     vertices: []
     indices: 
@@ -386,16 +336,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      victorDeath_0: -5602423308820669995
-      victorDeath_1: 3162864694840933279
-      victorDeath_2: 3012298560207557808
-      victorDeath_3: -7904514679567053897
-      victorDeath_4: -4480795956649983947
-      victorDeath_5: 1283816946039696566
-      victorDeath_6: -1195220839642024015
-      victorDeath_7: 7850498886586282853
+      victorIdle_0: 520449906783838256
+      victorIdle_1: -7648288592404802674
+      victorIdle_2: -6272989448906186504
+      victorIdle_3: 8207141658450067429
+      victorIdle_4: 3635898320606878192
+      victorIdle_5: 9022094923671160377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

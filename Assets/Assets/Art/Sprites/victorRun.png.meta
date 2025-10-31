@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 04ae6eb2b7162094dbc6394d7b732d89
+guid: 93d22fb4b104daa418312e87d769c91d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4001934476446965969
-    second: enemyGargoyle_0
+      213: 4469044270497626267
+    second: victorRun_0
   - first:
-      213: 408614051384754141
-    second: enemyGargoyle_1
+      213: -7338622760874711434
+    second: victorRun_1
   - first:
-      213: 1932445385929931692
-    second: enemyGargoyle_2
+      213: 8767099074709526809
+    second: victorRun_2
   - first:
-      213: 3759898669923550703
-    second: enemyGargoyle_3
+      213: -680008169350877861
+    second: victorRun_3
   - first:
-      213: -4866843649292605493
-    second: enemyGargoyle_4
+      213: -756337165362735021
+    second: victorRun_4
+  - first:
+      213: -6931895078966155506
+    second: victorRun_5
+  - first:
+      213: -8926740102007393398
+    second: victorRun_6
+  - first:
+      213: 6889114640321294399
+    second: victorRun_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -190,111 +199,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyGargoyle_0
+      name: victorRun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 6
-        width: 44
-        height: 38
+        x: 7
+        y: 0
+        width: 25
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2f5dfcfbc54678c0800000000000000
-      internalID: -4001934476446965969
+      spriteID: b987184061c350e30800000000000000
+      internalID: 4469044270497626267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyGargoyle_1
+      name: victorRun_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 3
-        width: 44
-        height: 39
+        x: 52
+        y: 0
+        width: 28
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddf75079050bba500800000000000000
-      internalID: 408614051384754141
+      spriteID: 676677d0b79f72a90800000000000000
+      internalID: -7338622760874711434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyGargoyle_2
+      name: victorRun_2
       rect:
         serializedVersion: 2
-        x: 99
-        y: 2
-        width: 42
-        height: 38
+        x: 96
+        y: 0
+        width: 36
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cab323807dc61da10800000000000000
-      internalID: 1932445385929931692
+      spriteID: 91997ba882efaa970800000000000000
+      internalID: 8767099074709526809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyGargoyle_3
+      name: victorRun_3
       rect:
         serializedVersion: 2
         x: 146
-        y: 3
-        width: 44
-        height: 39
+        y: 9
+        width: 43
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe5c1446be7dd2430800000000000000
-      internalID: 3759898669923550703
+      spriteID: b5d2a7d3c202096f0800000000000000
+      internalID: -680008169350877861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyGargoyle_4
+      name: victorRun_4
       rect:
         serializedVersion: 2
-        x: 195
-        y: 6
-        width: 42
-        height: 37
+        x: 194
+        y: 9
+        width: 46
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc76c829c7f757cb0800000000000000
-      internalID: -4866843649292605493
+      spriteID: 358d028fa53f085f0800000000000000
+      internalID: -756337165362735021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorRun_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 4
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07a1f50726fccf90800000000000000
+      internalID: -6931895078966155506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorRun_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a837d915c29dd1480800000000000000
+      internalID: -8926740102007393398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: victorRun_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f303b49e34d0b9f50800000000000000
+      internalID: 6889114640321294399
       vertices: []
       indices: 
       edges: []
@@ -303,7 +378,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a0af4beb51d9c614e8ddae6133c14712
     internalID: 0
     vertices: []
     indices: 
@@ -311,13 +386,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      enemyGargoyle_0: -4001934476446965969
-      enemyGargoyle_1: 408614051384754141
-      enemyGargoyle_2: 1932445385929931692
-      enemyGargoyle_3: 3759898669923550703
-      enemyGargoyle_4: -4866843649292605493
+      victorRun_0: 4469044270497626267
+      victorRun_1: -7338622760874711434
+      victorRun_2: 8767099074709526809
+      victorRun_3: -680008169350877861
+      victorRun_4: -756337165362735021
+      victorRun_5: -6931895078966155506
+      victorRun_6: -8926740102007393398
+      victorRun_7: 6889114640321294399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

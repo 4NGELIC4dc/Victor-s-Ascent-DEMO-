@@ -1,34 +1,43 @@
 fileFormatVersion: 2
-guid: f891bc5f18b04c84f9d976ad6fbaeffe
+guid: 0b2999245b4214f4982bdeab08bfec02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5323276291861435675
-    second: enemyFireball_0
+      213: -4771297035213387780
+    second: spriteMisc_0
   - first:
-      213: 1671434958471100177
-    second: enemyFireball_1
+      213: 5047125118898111085
+    second: spriteMisc_1
   - first:
-      213: -5749718289167666470
-    second: enemyFireball_2
+      213: -3244867362625522007
+    second: spriteMisc_2
   - first:
-      213: -926187057683899432
-    second: enemyFireball_3
+      213: -2357898534578785957
+    second: spriteMisc_3
   - first:
-      213: 3506160740582036976
-    second: enemyFireball_4
+      213: 7471795569827002843
+    second: spriteMisc_4
   - first:
-      213: 3551227503033030253
-    second: enemyFireball_5
+      213: 1021387958745729220
+    second: spriteMisc_5
   - first:
-      213: -980767861785715311
-    second: enemyFireball_6
+      213: -4418392696381930601
+    second: spriteMisc_6
   - first:
-      213: 6968063493390279419
-    second: enemyFireball_7
+      213: 8617892464756337782
+    second: spriteMisc_7
   - first:
-      213: 8145187455637916227
-    second: enemyFireball_8
+      213: -7794013029143845173
+    second: spriteMisc_8
+  - first:
+      213: -5488757026613143662
+    second: spriteMisc_9
+  - first:
+      213: -883497553273421807
+    second: spriteMisc_10
+  - first:
+      213: 3103992289913037784
+    second: spriteMisc_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -202,199 +211,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyFireball_0
+      name: spriteHeart1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ea275e9a6cef16b0800000000000000
-      internalID: -5323276291861435675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemyFireball_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 17
-        width: 16
+        x: 9
+        y: 106
+        width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 117f6d43d31223710800000000000000
-      internalID: 1671434958471100177
+      spriteID: cf74b3a30a2f8cdb0800000000000000
+      internalID: -4771297035213387780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_2
+      name: spriteHeart2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 1
-        width: 20
-        height: 31
+        x: 39
+        y: 104
+        width: 18
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad23897eda5e430b0800000000000000
-      internalID: -5749718289167666470
+      spriteID: d628fd80e8dfa0640800000000000000
+      internalID: 5047125118898111085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_3
+      name: spriteLeftSpike1
       rect:
         serializedVersion: 2
         x: 63
-        y: 3
-        width: 14
-        height: 26
+        y: 97
+        width: 9
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8dbdf2737c58523f0800000000000000
-      internalID: -926187057683899432
+      spriteID: 9a67273635ae7f2d0800000000000000
+      internalID: -3244867362625522007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_4
+      name: spriteRightSpike1
       rect:
         serializedVersion: 2
-        x: 95
-        y: 9
-        width: 18
-        height: 14
+        x: 96
+        y: 97
+        width: 8
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f510dbfd9268a030800000000000000
-      internalID: 3506160740582036976
+      spriteID: b51740686cf074fd0800000000000000
+      internalID: -2357898534578785957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_5
+      name: spriteDownSpike1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 9
-        width: 26
-        height: 14
+        x: 1
+        y: 64
+        width: 30
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6691ea499e784130800000000000000
-      internalID: 3551227503033030253
+      spriteID: bd930e5cb7621b760800000000000000
+      internalID: 7471795569827002843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_6
+      name: spriteDownSpike2
       rect:
         serializedVersion: 2
-        x: 159
-        y: 9
-        width: 24
-        height: 14
+        x: 33
+        y: 64
+        width: 30
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19d942773dc9362f0800000000000000
-      internalID: -980767861785715311
+      spriteID: 4c886eadfe2bc2e00800000000000000
+      internalID: 1021387958745729220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_7
+      name: spriteLeftSpike2
       rect:
         serializedVersion: 2
-        x: 191
-        y: 9
-        width: 24
-        height: 14
+        x: 64
+        y: 65
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf225ef24d883b060800000000000000
-      internalID: 6968063493390279419
+      spriteID: 79389f59047bea2c0800000000000000
+      internalID: -4418392696381930601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_8
+      name: spriteRightSpike2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1
-        width: 14
-        height: 10
+        x: 87
+        y: 65
+        width: 17
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34a044af5d4890170800000000000000
-      internalID: 8145187455637916227
+      spriteID: 67c21528987e89770800000000000000
+      internalID: 8617892464756337782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWoodPlatformLeft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc66d17c17a16d390800000000000000
+      internalID: -7794013029143845173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteWoodPlatformRight
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 26
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2975b42a09404d3b0800000000000000
+      internalID: -5488757026613143662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteMisc_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 24
+        width: 6
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110063108af2db3f0800000000000000
+      internalID: -883497553273421807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteChain
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 24
+        width: 6
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d361d1ca88931b20800000000000000
+      internalID: 3103992289913037784
       vertices: []
       indices: 
       edges: []
@@ -403,7 +478,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1cab879d1b315004ea0929ea789ebd78
     internalID: 0
     vertices: []
     indices: 
@@ -411,17 +486,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      enemyFireball_0: -5323276291861435675
-      enemyFireball_1: 1671434958471100177
-      enemyFireball_2: -5749718289167666470
-      enemyFireball_3: -926187057683899432
-      enemyFireball_4: 3506160740582036976
-      enemyFireball_5: 3551227503033030253
-      enemyFireball_6: -980767861785715311
-      enemyFireball_7: 6968063493390279419
-      enemyFireball_8: 8145187455637916227
+      spriteChain: 3103992289913037784
+      spriteDownSpike1: 7471795569827002843
+      spriteDownSpike2: 1021387958745729220
+      spriteHeart1: -4771297035213387780
+      spriteHeart2: 5047125118898111085
+      spriteLeftSpike1: -3244867362625522007
+      spriteLeftSpike2: -4418392696381930601
+      spriteMisc_10: -883497553273421807
+      spriteRightSpike1: -2357898534578785957
+      spriteRightSpike2: 8617892464756337782
+      spriteWoodPlatformLeft: -7794013029143845173
+      spriteWoodPlatformRight: -5488757026613143662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
