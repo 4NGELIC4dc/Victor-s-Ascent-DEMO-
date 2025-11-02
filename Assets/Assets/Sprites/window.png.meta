@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 27b064e6db06303469e4a01896cb70e5
+guid: e573954e84ed08b458791d3face25136
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6264869693142154190
-    second: victorJump_0
-  - first:
-      213: -7379642541514051230
-    second: victorJump_1
+      213: -9051692800306759852
+    second: window_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -181,45 +178,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: victorJump_0
+      name: window_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 1
-        width: 23
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 234c620f436be09a0800000000000000
-      internalID: -6264869693142154190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: victorJump_1
-      rect:
-        serializedVersion: 2
-        x: 55
+        x: 0
         y: 0
-        width: 27
-        height: 46
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 261b1bf153e369990800000000000000
-      internalID: -7379642541514051230
+      spriteID: 45731c52b5de16280800000000000000
+      internalID: -9051692800306759852
       vertices: []
       indices: 
       edges: []
@@ -228,7 +203,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f74bfa6492caa104e91a160c3c6f95ca
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -236,12 +211,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      victorJump_0: -6264869693142154190
-      victorJump_1: -7379642541514051230
+      window_0: -9051692800306759852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

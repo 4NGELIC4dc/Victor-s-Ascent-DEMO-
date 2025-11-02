@@ -1,28 +1,13 @@
 fileFormatVersion: 2
-guid: 0b2999245b4214f4982bdeab08bfec02
+guid: 27b064e6db06303469e4a01896cb70e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4771297035213387780
-    second: spriteMisc_0
+      213: -6264869693142154190
+    second: victorJump_0
   - first:
-      213: 5047125118898111085
-    second: spriteMisc_1
-  - first:
-      213: -3244867362625522007
-    second: spriteMisc_2
-  - first:
-      213: -2357898534578785957
-    second: spriteMisc_3
-  - first:
-      213: 7471795569827002843
-    second: spriteMisc_4
-  - first:
-      213: 1021387958745729220
-    second: spriteMisc_5
-  - first:
-      213: -4418392696381930601
-    second: spriteMisc_6
+      213: -7379642541514051230
+    second: victorJump_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -196,13 +181,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spriteHeart
+      name: VictorJump
       rect:
         serializedVersion: 2
-        x: 6
-        y: 61
-        width: 20
-        height: 20
+        x: 9
+        y: 1
+        width: 23
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,108 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf74b3a30a2f8cdb0800000000000000
-      internalID: -4771297035213387780
+      spriteID: 234c620f436be09a0800000000000000
+      internalID: -6264869693142154190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteLeftSpike
+      name: VictorFall
       rect:
         serializedVersion: 2
-        x: 30
-        y: 53
-        width: 11
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d628fd80e8dfa0640800000000000000
-      internalID: 5047125118898111085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteRightSpike
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 53
-        width: 10
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a67273635ae7f2d0800000000000000
-      internalID: -3244867362625522007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteChain
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 45
-        width: 8
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b51740686cf074fd0800000000000000
-      internalID: -2357898534578785957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteBottomSpike
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 37
-        width: 32
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd930e5cb7621b760800000000000000
-      internalID: 7471795569827002843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteLeftWoodenPlatform
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 55
         y: 0
-        width: 33
-        height: 31
+        width: 27
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,30 +218,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c886eadfe2bc2e00800000000000000
-      internalID: 1021387958745729220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spriteRightWoodenPlatform
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 0
-        width: 33
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79389f59047bea2c0800000000000000
-      internalID: -4418392696381930601
+      spriteID: 261b1bf153e369990800000000000000
+      internalID: -7379642541514051230
       vertices: []
       indices: 
       edges: []
@@ -353,7 +228,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7e3459dc565910147a4eae859ab7c432
+    spriteID: f74bfa6492caa104e91a160c3c6f95ca
     internalID: 0
     vertices: []
     indices: 
@@ -361,15 +236,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      spriteBottomSpike: 7471795569827002843
-      spriteChain: -2357898534578785957
-      spriteHeart: -4771297035213387780
-      spriteLeftSpike: 5047125118898111085
-      spriteLeftWoodenPlatform: 1021387958745729220
-      spriteRightSpike: -3244867362625522007
-      spriteRightWoodenPlatform: -4418392696381930601
+      VictorFall: -7379642541514051230
+      VictorJump: -6264869693142154190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
