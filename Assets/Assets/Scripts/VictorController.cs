@@ -203,7 +203,13 @@ public class VictorController : MonoBehaviour
     {
         if (((1 << collision.gameObject.layer) & harmfulLayer) != 0 && ((1 << collision.gameObject.layer) & groundLayer) == 0)
         {
-            Die();
+            HealthManager.Instance.TakeDamage(1);
+
+            // Only die if out of lives
+            if (HealthManager.Instance.GetCurrentLives() <= 0)
+            {
+                Die();
+            }
         }
     }
 
