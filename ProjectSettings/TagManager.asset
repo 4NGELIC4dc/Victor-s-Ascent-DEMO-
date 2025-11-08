@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Border
+  - Harmful
+  - Ground
+  - Wallhold
+  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -13,9 +18,9 @@ TagManager:
   - UI
   - Ground
   - Collectible
-  - Wall
+  - Wallhold
   - Harmful
-  - 
+  - Border
   - 
   - 
   - 
