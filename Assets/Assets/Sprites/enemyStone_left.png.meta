@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 35fe38b246b842d43b0e1785d551656b
+guid: 34c4f06f75120af468bd30597dd7f073
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 624935183022776743
-    second: enemyStone_0
+      213: 3349505856297406719
+    second: enemyStone_left_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -178,7 +178,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyStone_0
+      name: enemyStone_left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a167b7ec373ca800800000000000000
-      internalID: 624935183022776743
+      spriteID: ff092b174d5db7e20800000000000000
+      internalID: 3349505856297406719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyStone_1
+      name: enemyStone_left_1
       rect:
         serializedVersion: 2
         x: 32
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 125f1164ea85f764885d67e39d064b8d
-      internalID: 847677882
+      spriteID: 21e5d05e69f9dd3439124aa1b16c4a1e
+      internalID: -435162424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyStone_2
+      name: enemyStone_left_2
       rect:
         serializedVersion: 2
         x: 64
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24876b218977c6544b2006ce3817f157
-      internalID: 1242726421
+      spriteID: 8a3d40c39b574794eb5bda47e2b009e1
+      internalID: 1204207817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyStone_3
+      name: enemyStone_left_3
       rect:
         serializedVersion: 2
         x: 96
@@ -259,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c40b0fa37c5426e419296b1d687ae85c
-      internalID: 1468870768
+      spriteID: a2d7eca1da17fef4c868714ef49a59a6
+      internalID: 2052363724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyStone_4
+      name: enemyStone_left_4
       rect:
         serializedVersion: 2
         x: 128
@@ -281,8 +281,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2791dbb51e4b031488465519a2280b8d
-      internalID: 454175057
+      spriteID: 7e1893d4c9a16c04dbb802f362408101
+      internalID: 499522728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyStone_left_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31418f545a7067a4fb7b8c3dfe855d49
+      internalID: 1850510462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyStone_left_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdf942e2cc37a34ea9633b649163292
+      internalID: -1906925402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyStone_left_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c920fb80e39cd1b478841ebf4495b585
+      internalID: 1029663117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyStone_left_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a00f8b1c5f234e84336bf823c958e
+      internalID: -6287697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyStone_left_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc854f4c16488941a7f77b9874e192e
+      internalID: -1509067745
       vertices: []
       indices: 
       edges: []
@@ -291,7 +401,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 098c1cfe73bcd7745ab506925c92bcc4
+    spriteID: e46c73f5135a64942b5fd2efce26bf96
     internalID: 0
     vertices: []
     indices: 
@@ -303,11 +413,16 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      enemyStone_0: 624935183022776743
-      enemyStone_1: 847677882
-      enemyStone_2: 1242726421
-      enemyStone_3: 1468870768
-      enemyStone_4: 454175057
+      enemyStone_left_0: 3349505856297406719
+      enemyStone_left_1: -435162424
+      enemyStone_left_2: 1204207817
+      enemyStone_left_3: 2052363724
+      enemyStone_left_4: 499522728
+      enemyStone_left_5: 1850510462
+      enemyStone_left_6: -1906925402
+      enemyStone_left_7: 1029663117
+      enemyStone_left_8: -6287697
+      enemyStone_left_9: -1509067745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

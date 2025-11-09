@@ -3,23 +3,23 @@ guid: 46cc73d66f9445043b8e4d32ac728a53
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5323276291861435675
-    second: enemyFireball_0
+      213: 7080826947709744328
+    second: enemyFireball_right_0
   - first:
-      213: 1671434958471100177
-    second: enemyFireball_1
+      213: 2952893019605312019
+    second: enemyFireball_right_1
   - first:
-      213: -5749718289167666470
-    second: enemyFireball_2
+      213: 2617376197644687419
+    second: enemyFireball_right_2
   - first:
-      213: -926187057683899432
-    second: enemyFireball_3
+      213: -86308898431403579
+    second: enemyFireball_right_3
   - first:
-      213: 3506160740582036976
-    second: enemyFireball_4
+      213: 2562415099777760276
+    second: enemyFireball_right_4
   - first:
-      213: 3551227503033030253
-    second: enemyFireball_5
+      213: 8337641914994363179
+    second: enemyFireball_right_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -193,7 +193,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemyFireball_0
+      name: enemyFireball_right_0
       rect:
         serializedVersion: 2
         x: 3
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ea275e9a6cef16b0800000000000000
-      internalID: -5323276291861435675
+      spriteID: 8c4b046d796244260800000000000000
+      internalID: 7080826947709744328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_1
+      name: enemyFireball_right_1
       rect:
         serializedVersion: 2
         x: 32
@@ -230,14 +230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 117f6d43d31223710800000000000000
-      internalID: 1671434958471100177
+      spriteID: 3122e456e88caf820800000000000000
+      internalID: 2952893019605312019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_2
+      name: enemyFireball_right_2
       rect:
         serializedVersion: 2
         x: 68
@@ -252,14 +252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad23897eda5e430b0800000000000000
-      internalID: -5749718289167666470
+      spriteID: b389c28c8c9c25420800000000000000
+      internalID: 2617376197644687419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_3
+      name: enemyFireball_right_3
       rect:
         serializedVersion: 2
         x: 102
@@ -274,14 +274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8dbdf2737c58523f0800000000000000
-      internalID: -926187057683899432
+      spriteID: 5c97a00a38e5dcef0800000000000000
+      internalID: -86308898431403579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_4
+      name: enemyFireball_right_4
       rect:
         serializedVersion: 2
         x: 134
@@ -296,14 +296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f510dbfd9268a030800000000000000
-      internalID: 3506160740582036976
+      spriteID: 41cb95df4f68f8320800000000000000
+      internalID: 2562415099777760276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemyFireball_5
+      name: enemyFireball_right_5
       rect:
         serializedVersion: 2
         x: 160
@@ -318,8 +318,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6691ea499e784130800000000000000
-      internalID: 3551227503033030253
+      spriteID: b2b85af952145b370800000000000000
+      internalID: 8337641914994363179
       vertices: []
       indices: 
       edges: []
@@ -328,7 +328,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f68049870e25cc743b151b19cefe8914
+    spriteID: 177129a6491154b429ce4e65f98840db
     internalID: 0
     vertices: []
     indices: 
@@ -338,14 +338,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      enemyFireball_0: -5323276291861435675
-      enemyFireball_1: 1671434958471100177
-      enemyFireball_2: -5749718289167666470
-      enemyFireball_3: -926187057683899432
-      enemyFireball_4: 3506160740582036976
-      enemyFireball_5: 3551227503033030253
+      enemyFireball_right_0: 7080826947709744328
+      enemyFireball_right_1: 2952893019605312019
+      enemyFireball_right_2: 2617376197644687419
+      enemyFireball_right_3: -86308898431403579
+      enemyFireball_right_4: 2562415099777760276
+      enemyFireball_right_5: 8337641914994363179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
