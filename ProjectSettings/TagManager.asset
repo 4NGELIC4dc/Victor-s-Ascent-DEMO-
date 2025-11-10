@@ -11,6 +11,9 @@ TagManager:
   - Collectible
   - Chain
   - Interactable
+  - Rope
+  - Window
+  - ButtonSFX
   layers:
   - Default
   - TransparentFX

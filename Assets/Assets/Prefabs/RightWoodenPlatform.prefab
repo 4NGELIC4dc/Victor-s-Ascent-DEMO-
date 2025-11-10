@@ -150,6 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e58a8109c188d484fbe17a828dbde6f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakablePlatform
-  timeToBreak: 3
-  timeToRegenerate: 3
+  timeToBreak: 2
+  timeToRegenerate: 2
   blinkSpeed: 0.1

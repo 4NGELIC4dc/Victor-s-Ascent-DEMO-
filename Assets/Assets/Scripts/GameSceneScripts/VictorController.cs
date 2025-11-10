@@ -17,7 +17,7 @@ public class VictorController : MonoBehaviour
     public float jumpingPower = 16f;
 
     [Header("Dash")]
-    public float dashingPower = 24f;
+    public float dashingPower = 12f;
     public float dashingTime = 0.2f;
     public float dashingCooldown = 1f;
     private bool canDash = true;
@@ -82,6 +82,8 @@ public class VictorController : MonoBehaviour
         moveAction = inputActions.Player.Move;
         jumpAction = inputActions.Player.Jump;
         dashAction = inputActions.Player.Dash;
+        interactAction = inputActions.Player.Interact;
+        pickupAction = inputActions.Player.Pickup;
         inputActions.Player.Enable();
 
         hashIsRunning = Animator.StringToHash("isRunning");

@@ -1,0 +1,64 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections; // Needed for IEnumerator
+
+public class PauseManager : MonoBehaviour
+{
+    [SerializeField] private GameObject pauseUI;
+    [SerializeField] private FadeController fadeController; // Drag FadePanel here
+    private bool isPaused = false;
+
+    private void Start()
+    {
+        if (pauseUI != null)
+            pauseUI.SetActive(false);
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void TogglePause()
+    {
+        if (isPaused)
+            ResumeGame();
+        else
+            PauseGame();
+    }
+
+    private void PauseGame()
+    {
+        if (pauseUI != null)
+            pauseUI.SetActive(true);
+
+        Time.timeScale = 0f;
+        isPaused = true;
+    }
+
+    private void ResumeGame()
+    {
+        if (pauseUI != null)
+            pauseUI.SetActive(false);
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void RestartLevel()
+    {
+        StartCoroutine(RestartWithFade());
+    }
+
+    private IEnumerator RestartWithFade()
+    {
+        Time.timeScale = 1f;
+
+        if (fadeController != null)
+        {
+            // Play the fade out animation (fade to black)
+            yield return StartCoroutine(fadeController.FadeOut());
+        }
+
+        // Once fade completes, reload the current scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+}

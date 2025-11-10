@@ -3,32 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class BGMManager : MonoBehaviour
 {
-    private static BGMManager instance;
     [SerializeField] private AudioSource bgmSource;
 
     private void Awake()
     {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        instance = this;
-        DontDestroyOnLoad(gameObject);
-
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        // Optional: Safety check to make sure AudioSource is assigned
+        if (bgmSource == null)
+            bgmSource = GetComponent<AudioSource>();
     }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    private void Start()
     {
-        if (scene.name == "GameScene")
-        {
-            if (!bgmSource.isPlaying)
-                bgmSource.Play();
-        }
-        else
-        {
-            bgmSource.Stop();
-        }
+        // Play the BGM as soon as GameScene starts
+        if (bgmSource != null && !bgmSource.isPlaying)
+            bgmSource.Play();
     }
 }

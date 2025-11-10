@@ -19,7 +19,7 @@ public class EndingCutsceneController : MonoBehaviour
 
     [Header("Timing")]
     [Tooltip("Seconds after which buttons appear (set to 8)")]
-    public float showButtonsAfterSeconds = 8f;
+    public float showButtonsAfterSeconds = 10f;
 
     [Header("Scene names")]
     public string mainMenuSceneName = "MainMenu"; // set to your main menu scene name
