@@ -262,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spriteChain
+      name: GreyChain
       rect:
         serializedVersion: 2
         x: 64
@@ -363,8 +363,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      GreyChain: -2357898534578785957
       spriteBottomSpike: 7471795569827002843
-      spriteChain: -2357898534578785957
       spriteHeart: -4771297035213387780
       spriteLeftSpike: 5047125118898111085
       spriteLeftWoodenPlatform: 1021387958745729220

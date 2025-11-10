@@ -9,11 +9,13 @@ TagManager:
   - Ground
   - Wallhold
   - Collectible
+  - Chain
+  - Interactable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Ground
@@ -21,8 +23,8 @@ TagManager:
   - Wallhold
   - Harmful
   - Border
-  - 
-  - 
+  - Chain
+  - Interactable
   - 
   - 
   - 
@@ -45,6 +47,33 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 768056219
+    locked: 0
+  - name: Platforms
+    uniqueID: 3556391977
+    locked: 0
+  - name: Enemies
+    uniqueID: 1454859861
+    locked: 0
+  - name: Foreground
+    uniqueID: 1763821597
+    locked: 0
+  - name: Items
+    uniqueID: 911305977
+    locked: 0
+  - name: Window
+    uniqueID: 4213468399
+    locked: 0
+  - name: Text
+    uniqueID: 3689109523
+    locked: 0
+  - name: Player
+    uniqueID: 484313845
+    locked: 0
+  - name: Chain
+    uniqueID: 286666877
     locked: 0
   m_RenderingLayers:
   - Default
