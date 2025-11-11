@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1454859861
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 7080826947709744328, guid: 46cc73d66f9445043b8e4d32ac728a53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -192,5 +192,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireballRight
   speed: 4
-  flyDuration: 4
+  flyDuration: 6
   explosionDuration: 0.45

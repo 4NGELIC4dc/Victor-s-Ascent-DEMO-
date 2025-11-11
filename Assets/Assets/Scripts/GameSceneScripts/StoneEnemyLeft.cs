@@ -5,13 +5,13 @@ public class StoneEnemyLeft : MonoBehaviour
     [Header("Fireball Spawn Settings")]
     [SerializeField] private GameObject fireballPrefab;
     [SerializeField] private Transform spawnPoint;
-    [SerializeField] private float spawnInterval = 2f;
-    [SerializeField] private float fireballSpeed = 4f;
+    [SerializeField] private float spawnInterval = 5f;
+    [SerializeField] private float fireballSpeed = 3f;
 
     [Header("Audio")]
     [Tooltip("Assign fireballsfx.mp3 here.")]
     [SerializeField] private AudioClip fireballSfx;
-    [SerializeField] private float hearingRadius = 8f;
+    [SerializeField] private float hearingRadius = 5f;
     [SerializeField, Range(0f, 1f)] private float baseVolume = 1f;
 
     private float spawnTimer = 0f;

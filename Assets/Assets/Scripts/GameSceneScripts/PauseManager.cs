@@ -47,6 +47,23 @@ public class PauseManager : MonoBehaviour
     {
         StartCoroutine(RestartWithFade());
     }
+    public void GoToMainMenu()
+    {
+        StartCoroutine(GoToMainMenuWithFade());
+    }
+
+    private IEnumerator GoToMainMenuWithFade()
+    {
+        Time.timeScale = 1f;
+
+        if (fadeController != null)
+        {
+            // Play fade out animation before switching
+            yield return StartCoroutine(fadeController.FadeOut());
+        }
+
+        SceneManager.LoadScene("MainMenu");
+    }
 
     private IEnumerator RestartWithFade()
     {

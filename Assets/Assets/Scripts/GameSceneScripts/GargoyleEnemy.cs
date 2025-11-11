@@ -11,8 +11,8 @@ public class GargoyleEnemy : MonoBehaviour
     [SerializeField] private Transform rightBoundary;
 
     [Header("Audio")]
-    [Tooltip("Assign wingflapsfx.mp3 here (AudioSource on this GameObject should also have the clip).")]
-    [SerializeField] private float hearingRadius = 8f; // how close Victor must be to hear
+    [Tooltip("Assign wingflapsfx.mp3 here.")]
+    [SerializeField] private float hearingRadius = 5f; 
     [SerializeField, Range(0f, 1f)] private float baseVolume = 1f;
 
     private SpriteRenderer spriteRenderer;

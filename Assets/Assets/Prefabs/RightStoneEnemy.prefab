@@ -83,7 +83,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1454859861
-  m_SortingLayer: 3
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 3946313484883958302, guid: 35fe38b246b842d43b0e1785d551656b, type: 3}
   m_Color: {r: 0.78431374, g: 0.47058824, b: 0.29411766, a: 1}
@@ -205,10 +205,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StoneEnemyRight
   fireballPrefab: {fileID: 2550230207230113971, guid: 1a973c3f0c3e60948806e259e18dd62d, type: 3}
   spawnPoint: {fileID: 6915764604296322700}
-  spawnInterval: 2
-  fireballSpeed: 4
+  spawnInterval: 5
+  fireballSpeed: 3
   fireballSfx: {fileID: 8300000, guid: 04b1c8966839e9744888d703e7dba17f, type: 3}
-  hearingRadius: 8
+  hearingRadius: 5
   baseVolume: 1
 --- !u!82 &6683378136099729735
 AudioSource:

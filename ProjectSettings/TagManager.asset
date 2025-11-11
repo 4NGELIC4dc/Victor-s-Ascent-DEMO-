@@ -54,6 +54,15 @@ TagManager:
   - name: Background
     uniqueID: 768056219
     locked: 0
+  - name: Window
+    uniqueID: 4213468399
+    locked: 0
+  - name: Chain
+    uniqueID: 286666877
+    locked: 0
+  - name: Spikes
+    uniqueID: 2899559391
+    locked: 0
   - name: Platforms
     uniqueID: 3556391977
     locked: 0
@@ -66,17 +75,11 @@ TagManager:
   - name: Items
     uniqueID: 911305977
     locked: 0
-  - name: Window
-    uniqueID: 4213468399
-    locked: 0
   - name: Text
     uniqueID: 3689109523
     locked: 0
   - name: Player
     uniqueID: 484313845
-    locked: 0
-  - name: Chain
-    uniqueID: 286666877
     locked: 0
   m_RenderingLayers:
   - Default

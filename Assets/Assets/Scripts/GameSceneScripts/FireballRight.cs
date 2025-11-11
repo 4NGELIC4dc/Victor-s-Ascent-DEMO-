@@ -4,7 +4,7 @@ public class FireballRight : MonoBehaviour
 {
     [Header("Movement Settings")]
     [SerializeField] private float speed = 4f;
-    [SerializeField] private float flyDuration = 4f; // duration of flight before exploding
+    [SerializeField] private float flyDuration = 6f; // duration of flight before exploding
     [SerializeField] private float explosionDuration = 0.45f; // explosion animation time
 
     private Animator animator;
