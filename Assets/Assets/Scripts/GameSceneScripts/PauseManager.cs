@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections; // Needed for IEnumerator
+using System.Collections; 
 
 public class PauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseUI;
-    [SerializeField] private FadeController fadeController; // Drag FadePanel here
+    [SerializeField] private FadeController fadeController; 
     private bool isPaused = false;
 
     private void Start()
@@ -54,11 +54,11 @@ public class PauseManager : MonoBehaviour
 
         if (fadeController != null)
         {
-            // Play the fade out animation (fade to black)
+            // Play fade out animation (fade to black)
             yield return StartCoroutine(fadeController.FadeOut());
         }
 
-        // Once fade completes, reload the current scene
+        // Once fade completes, reload current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

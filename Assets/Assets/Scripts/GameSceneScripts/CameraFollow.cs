@@ -71,7 +71,7 @@ public class CameraFollow : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        // Visualize the camera boundaries in the Scene view
+        // Visualize camera boundaries in the Scene view
         Gizmos.color = Color.yellow;
         if (leftBoundary != null && rightBoundary != null)
         {

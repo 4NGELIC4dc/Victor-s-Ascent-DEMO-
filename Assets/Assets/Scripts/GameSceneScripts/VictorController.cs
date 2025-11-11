@@ -43,8 +43,8 @@ public class VictorController : MonoBehaviour
     [SerializeField] private LayerMask interactableLayer;
     [SerializeField] private Transform interactionPoint;
 
-    private InputAction interactAction;  // for F
-    private InputAction pickupAction;    // for E
+    private InputAction interactAction; 
+    private InputAction pickupAction;    
 
     [Header("Spawn / Respawn")]
     [SerializeField] private Transform spawnPoint;
@@ -139,10 +139,10 @@ public class VictorController : MonoBehaviour
             isWallHold = false;
             rb.gravityScale = normalGravity;
 
-            // push away from wall (diagonally)
+            // push away from wall 
             float jumpDir = isFacingRight ? -1f : 1f;
-            float wallJumpXPower = moveSpeed * 1.1f; // horizontal strength
-            float wallJumpYPower = jumpingPower * 0.9f; // vertical boost
+            float wallJumpXPower = moveSpeed * 1.1f; 
+            float wallJumpYPower = jumpingPower * 0.9f; 
             rb.linearVelocity = new Vector2(jumpDir * wallJumpXPower, wallJumpYPower);
 
             animator.SetBool(hashIsWallHold, false);
@@ -153,28 +153,25 @@ public class VictorController : MonoBehaviour
             Debug.Log("[WHD] Wall Jump triggered");
         }
 
-        // Wall Dash (diagonal push)
+        // Wall Dash 
         if (isWallHold && dashAction.WasPressedThisFrame() && canDash)
         {
             // Exit wall hold
             isWallHold = false;
             rb.gravityScale = normalGravity;
             animator.SetBool(hashIsWallHold, false);
-
-            // Optional dash animation
             animator.Play("Victor_Dash");
 
-            float dashDir = isFacingRight ? -1f : 1f; // dash away from the wall
+            // dash away from wall
+            float dashDir = isFacingRight ? -1f : 1f; 
             float horizontalPower = dashingPower * 0.9f;
             float verticalPower = dashingPower * 0.6f;
-
-            // Apply diagonal burst
             rb.linearVelocity = new Vector2(dashDir * horizontalPower, verticalPower);
 
             if (spriteRenderer && normalSprite)
                 spriteRenderer.sprite = normalSprite;
 
-            Debug.Log("[WHD] Wall Dash triggered (diagonal)!");
+            Debug.Log("[WHD] Wall Dash triggered (diagonal).");
 
             dashSFX.Play();
             StartCoroutine(WallDashCooldown());
@@ -197,7 +194,7 @@ public class VictorController : MonoBehaviour
                     spriteRenderer.sprite = normalSprite;
 
                 jumpSFX.Play();
-                Debug.Log("[WHD] Wall jump triggered");
+                Debug.Log("[WHD] Wall jump triggered.");
             }
             else if (IsGrounded())
             {
@@ -218,7 +215,7 @@ public class VictorController : MonoBehaviour
                     spriteRenderer.sprite = normalSprite;
 
                 animator.SetBool(hashIsWallHold, false);
-                Debug.Log("[WHD] Dashing off wall!");
+                Debug.Log("[WHD] Dashing off wall.");
             }
             StartCoroutine(Dash());
         }
@@ -238,8 +235,6 @@ public class VictorController : MonoBehaviour
             // Stop sliding down
             rb.linearVelocity = new Vector2(0f, 0f);
             rb.gravityScale = 0f;
-
-            // Only freeze rotation, not position
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             return;
         }
@@ -361,25 +356,21 @@ public class VictorController : MonoBehaviour
         // Respawn after delay
         StartCoroutine(HandleDeathSequence());
     }
+
+    // Handles fade transition after death animation
     private IEnumerator HandleDeathSequence()
     {
-        // find fade controller in scene
         FadeController fade = FindAnyObjectByType<FadeController>();
 
-        // Wait for death animation
         yield return new WaitForSeconds(1.5f);
 
-        // Fade to black
         if (fade != null)
             yield return fade.FadeOut();
 
-        // Respawn player
-        yield return RespawnAfterDelay(0f); // instant reposition
+        yield return RespawnAfterDelay(0f); // instant reposition to spawn point
 
-        // Small delay before fading back in
         yield return new WaitForSeconds(0.3f);
 
-        // Fade back in
         if (fade != null)
             yield return fade.FadeIn();
     }
@@ -402,7 +393,7 @@ public class VictorController : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("[Respawn] No spawn point assigned!");
+            Debug.LogWarning("[Respawn] No spawn point assigned.");
         }
 
         FindAnyObjectByType<GameManager>()?.ResetLevel();
@@ -480,8 +471,8 @@ public class VictorController : MonoBehaviour
             if (rope != null)
             {
                 rope.Interact();
-                hasRope = true; // player now owns the rope
-                Debug.Log("[Interaction] Picked up rope!");
+                hasRope = true; // player collected the rope
+                Debug.Log("[Interaction] Picked up rope.");
                 return;
             }
         }

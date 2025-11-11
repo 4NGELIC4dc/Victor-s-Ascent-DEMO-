@@ -40,7 +40,6 @@ public class StoneEnemyLeft : MonoBehaviour
     {
         spawnTimer -= Time.deltaTime;
 
-        // (optional) update audioSource.volume as ambient (not strictly necessary for one-shot but fine)
         UpdateAudioVolume();
 
         if (spawnTimer <= 0f)
@@ -51,7 +50,7 @@ public class StoneEnemyLeft : MonoBehaviour
             FireballRight fireball = fireballInstance.GetComponent<FireballRight>();
             if (fireball != null)
             {
-                fireball.Initialize(fireballSpeed); // Always goes right
+                fireball.Initialize(fireballSpeed); // Always goes left
             }
 
             // Play SFX at spawn (PlayOneShot allows overlap)

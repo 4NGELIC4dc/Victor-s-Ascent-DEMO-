@@ -15,7 +15,7 @@ public class BackButton : MonoBehaviour
         if (buttonAudio != null)
             buttonAudio.Play();
 
-        // Delay scene load slightly so the sound can play
+        // Delay scene load slightly so sound can play
         Invoke(nameof(LoadMainMenu), 0.3f);
     }
 

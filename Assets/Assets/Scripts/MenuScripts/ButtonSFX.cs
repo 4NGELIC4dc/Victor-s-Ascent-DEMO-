@@ -4,7 +4,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class ButtonSFX : MonoBehaviour
 {
-    public AudioClip buttonSound; // assign buttonsfx.mp3 here
+    public AudioClip buttonSound; 
     private AudioSource audioSource;
     private Button button;
 

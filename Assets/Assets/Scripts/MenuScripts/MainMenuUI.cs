@@ -1,40 +1,42 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class MainMenuUI : MonoBehaviour
 {
     [Header("Button Sounds")]
     [SerializeField] private AudioSource buttonSFX;
 
+    [Header("Scene Load Delay (seconds)")]
+    [SerializeField] private float sceneLoadDelay = 0.3f;
+
     public void OnStartPressed()
     {
         PlayButtonSound();
-        SceneManager.LoadScene("Cutscene");
+        Invoke(nameof(LoadStartScene), sceneLoadDelay);
     }
 
     public void OnSettingsPressed()
     {
         PlayButtonSound();
-        SceneManager.LoadScene("SettingsScene");
+        Invoke(nameof(LoadSettingsScene), sceneLoadDelay);
     }
 
     public void OnCreditsPressed()
     {
         PlayButtonSound();
-        SceneManager.LoadScene("CreditsScene");
+        Invoke(nameof(LoadCreditsScene), sceneLoadDelay);
     }
 
     public void OnHowToPlayPressed()
     {
         PlayButtonSound();
-        SceneManager.LoadScene("HowtoplayScene");
+        Invoke(nameof(LoadHowToPlayScene), sceneLoadDelay);
     }
 
     public void OnQuitPressed()
     {
         PlayButtonSound();
-        Application.Quit();
+        Invoke(nameof(QuitGame), sceneLoadDelay);
     }
 
     private void PlayButtonSound()
@@ -42,4 +44,11 @@ public class MainMenuUI : MonoBehaviour
         if (buttonSFX != null)
             buttonSFX.Play();
     }
+
+    // Load scene methods
+    private void LoadStartScene() => SceneManager.LoadScene("Cutscene");
+    private void LoadSettingsScene() => SceneManager.LoadScene("SettingsScene");
+    private void LoadCreditsScene() => SceneManager.LoadScene("CreditsScene");
+    private void LoadHowToPlayScene() => SceneManager.LoadScene("HowtoplayScene");
+    private void QuitGame() => Application.Quit();
 }

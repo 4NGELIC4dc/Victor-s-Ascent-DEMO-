@@ -99,7 +99,6 @@ public class GargoyleEnemy : MonoBehaviour
         // linear attenuation: 1 at 0 distance, 0 at hearingRadius or beyond
         float t = Mathf.Clamp01(1f - (dist / hearingRadius));
         audioSource.volume = baseVolume * t;
-        // If you want tiny fade instead of abrupt silence: use t^2 or Mathf.SmoothStep
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

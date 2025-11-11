@@ -40,7 +40,6 @@ public class StoneEnemyRight : MonoBehaviour
     {
         spawnTimer -= Time.deltaTime;
 
-        // (optional) update audioSource.volume as ambient (not strictly necessary for one-shot but fine)
         UpdateAudioVolume();
 
         if (spawnTimer <= 0f)

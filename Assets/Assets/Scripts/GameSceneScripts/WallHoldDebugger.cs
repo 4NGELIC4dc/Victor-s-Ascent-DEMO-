@@ -1,9 +1,8 @@
-// WallHoldDebugger.cs
 using UnityEngine;
 
 public class WallHoldDebugger : MonoBehaviour
 {
-    [Tooltip("Assign the same wallCheck Transform you used in VictorController.")]
+    [Tooltip("Assign the same wallCheck Transform used in VictorController.")]
     public Transform wallCheck;
     public float radius = 0.25f;
     public string chainLayerName = "Chain";
@@ -19,8 +18,8 @@ public class WallHoldDebugger : MonoBehaviour
     void Update()
     {
         frameCounter++;
-        // SIMPLE heartbeat so we know Update() is firing
-        if (frameCounter % 60 == 0) // every 60 frames
+        // SIMPLE heartbeat to know if Update() is firing
+        if (frameCounter % 60 == 0) 
             Debug.Log("[WHD] heartbeat (frame " + frameCounter + ")");
 
         if (wallCheck == null) return;
@@ -38,13 +37,13 @@ public class WallHoldDebugger : MonoBehaviour
         }
         else
         {
-            // Print a single message once every 120 frames so console doesn't spam
+            // Print a message once every 120 frames to avoid console spam
             if (frameCounter % 120 == 0)
                 Debug.Log($"[WHD] no overlap at {wallCheck.position} (radius {radius}) with layer '{chainLayerName}'");
         }
     }
 
-    // Draw the circle in scene view for visual verification
+    // Draws circle in scene view for visual verification
     private void OnDrawGizmosSelected()
     {
         if (wallCheck == null) return;

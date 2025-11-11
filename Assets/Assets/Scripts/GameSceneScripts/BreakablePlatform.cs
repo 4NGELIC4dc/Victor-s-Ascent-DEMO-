@@ -9,14 +9,10 @@ public class BreakablePlatform : MonoBehaviour
     private float breakTimer = 0f;
     private float regenerateTimer = 0f;
 
-    // ADJUSTABLE: Time before platform breaks while player is on it
-    public float timeToBreak = 2f;
 
-    // ADJUSTABLE: Time before platform regenerates
-    public float timeToRegenerate = 2f;
-
-    // ADJUSTABLE: Blink speed (lower = faster blink)
-    public float blinkSpeed = 0.1f;
+    public float timeToBreak = 2f; // Time before platform breaks while player is on it
+    public float timeToRegenerate = 2f; // Time before platform regenerates
+    public float blinkSpeed = 0.1f; // Blink speed (lower = faster blink)
 
     // Red color for blinking warning
     private Color redColor = new Color(1f, 0f, 0f, 1f);
